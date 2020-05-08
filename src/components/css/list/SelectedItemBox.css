@@ -1,0 +1,32 @@
+.user__selected__item__detail__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.user__selected__item__detail__overlay.show {
+    display: block;
+}
+
+.user__selected__item__detail {
+    margin-top: 20px;
+    height: 480px;
+
+    position: fixed;
+    /* height: 190px; */
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: none;
+    padding: 20px;
+    z-index: 999;
+}
+
+.user__selected__item__detail.show {
+    display: block;
+}

@@ -1,0 +1,144 @@
+/***********************************************************************
+ *      Header Title & Text
+ ***********************************************************************/
+/* .header {
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #00000026;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 1px 2px 1px rgba(0,0, 0, .06);
+    -moz-box-shadow: 0px 1px 2px 1px rgba(0,0, 0, .06);
+    box-shadow: 0px 1px 2px 1px rgba(0,0, 0, .06);
+} */
+
+.header__title {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 0 4px 4px;
+    background-color: #80808026;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    min-height: 38px;
+}
+
+.header__text {
+    width: 80%;
+    margin: 4px 0px 0px 4px;
+    font-size: .9rem;
+    text-align: left;
+    border: 0;
+    background: transparent;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+/***********************************************************************
+ *      user_custom__button
+ ***********************************************************************/
+.user__custom__button__box {
+    width: 100%;
+}
+
+.btn-sm.user__custom__button {
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #80808026;
+    border: 0;
+    color: black;
+}
+
+.btn-sm.user__custom__button.filter {
+    right: 0;
+    position: absolute;
+    margin-right: 15px;
+    background-color: white;
+    color: blue;
+    font-weight: 600;
+}
+
+.btn-sm.user__custom__button:active {
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #545b62;
+    border: 0;
+    color: #fff;
+    border-color: #4e555b;
+}
+
+.btn-sm.user__custom__button:focus {
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #545b62;
+    border: 0;
+    color: #fff;
+    border-color: #4e555b;
+}
+
+.btn-sm.user__custom__button:hover {
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #545b62;
+    border: 0;
+    color: #fff;
+    border-color: #4e555b;
+}
+
+
+
+
+
+/***********************************************************************
+ *      user_toggle__button
+ ***********************************************************************/
+.btn.user__toggle__button {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+/***********************************************************************
+ *      GPS
+ ***********************************************************************/
+.gps__button {
+    right: 0;
+    position: absolute;
+    margin-right: 25px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gps__icon {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    margin-top: 1px;
+}
+
+
+
+
+
+/***********************************************************************
+ *      Header background
+ ***********************************************************************/
+.bg-light.white {
+    background-color: white !important;
+    border-bottom: .5px solid lightgray;
+}

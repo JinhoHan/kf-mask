@@ -1,0 +1,159 @@
+
+.card.innerbody__.user__selected__item {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.card.kakao__map {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.user__custom__overlay {
+    position:relative;
+    bottom:85px;
+    border-radius:6px;
+    border: 1px solid #ccc;
+    border-bottom:2px solid #ddd;
+    float:left;
+}
+
+.user__custom__overlay:nth-of-type(n) {
+    border:0;
+    box-shadow:0px 1px 2px #888;
+}
+
+.user__custom__overlay a {
+    display:block;
+    text-decoration:none;
+    color:#000;
+    text-align:center;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    background: #d95050;
+    background: #d95050 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+}
+
+.user__custom__overlay .title {
+    display:block;
+    text-align:center;
+    background:#fff;
+    margin-right:35px;
+    padding:10px 15px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.user__custom__overlay:after {
+    content:'';
+    position:absolute;
+    margin-left:-12px;
+    left:50%;
+    bottom:-12px;
+    width:22px;
+    height:12px;
+    background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png');
+}
+
+
+
+
+
+/***********************************************************************
+ *      card__item__
+ ***********************************************************************/
+ .card__item__box {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: .8rem;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.card.card__item__innerbody {
+    border-radius: 10px;
+    padding: .7rem 1.25rem .7rem 1.25rem;
+}
+
+.card.card__item__innerbody.break {
+    background-color: #8f898926;
+}
+
+
+
+
+
+/***********************************************************************
+ *      mask__store__
+ ***********************************************************************/
+
+
+
+
+
+/***********************************************************************
+ *      card-title
+ ***********************************************************************/
+.card-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/***********************************************************************
+ *      mask__store__
+ ***********************************************************************/
+.card-title.user__selected__mask__store__name {
+    margin-bottom: .2rem;
+    color: #0c0c6b;
+    display: inline-block;
+}
+
+.card-title.user__selected__mask__store__name.break {
+    color: gray;
+}
+
+.card-title.distance__ {
+    display: inline-block;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+
+.card-title.user__selected__mask__addr {
+    font-weight: 400;
+    font-size: .8rem;
+    color: darkslategrey;
+}
+
+.card-title.user__selected__mask__addr.break {
+    display: none;
+}
+
+.card-title.user__selected__mask__remain {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: .2rem;
+    color: black;
+    display: inline-block;
+    bottom: 0;
+    width: fit-content;
+    position: relative;
+}
+
+.card-title.user__selected__mask__stock {
+    font-weight: 400;
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    color: black;
+}

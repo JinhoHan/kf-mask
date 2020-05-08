@@ -1,0 +1,222 @@
+/***********************************************************************
+ *      item__map__list__customoverlay
+ ***********************************************************************/
+.item__map__list__box.size__300 {
+    width: 300px;
+}
+
+.item__map__list__box {
+    position:relative;
+    bottom:85px;
+    border-radius:6px;
+    border: 1px solid #ccc;
+    border-bottom:2px solid #ddd;
+    float:left;
+}
+
+.item__map__list__box:nth-of-type(n) {
+    border:0;
+    box-shadow:0px 1px 2px #888;
+}
+
+.item__map__list__box a {
+    display:block;
+    text-decoration:none;
+    color:#000;
+    text-align:center;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    background: #d95050;
+    background: #d95050 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+}
+
+.item__map__list__box .title {
+    display:block;
+    text-align:center;
+    background:#fff;
+    margin-right:35px;
+    padding:10px 15px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.item__map__list__box:after {
+    content:'';
+    position:absolute;
+    margin-left:-12px;
+    left:50%;
+    bottom:-12px;
+    width:22px;
+    height:12px;
+    background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png');
+}
+
+
+
+/***********************************************************************
+ *      kakao__map__open
+ ***********************************************************************/
+.kakao__map__open {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+
+
+/***********************************************************************
+ *      item__map__list__item
+ ***********************************************************************/
+ .item__map__list__item {
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding-bottom: .8rem; */
+    border-radius: 6px;
+    border: 0px;
+}
+ .item__map__list__item.size__85__per {
+    width: 85%;
+    padding: 0px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+
+
+/***********************************************************************
+ *      item__map__list__innerbody
+ ***********************************************************************/
+.card.item__map__list__innerbody {
+    border: 0px;
+    border-radius: 10px;
+    padding: .7rem 1.25rem .7rem 1.25rem;
+}
+
+.card.item__map__list__innerbody.left__only__round {
+    border: 0px;
+    border-radius: 6px 0px 0px 6px;
+    padding: .6rem 1.2rem .6rem 1.2rem;
+}
+
+.card.item__map__list__innerbody.break {
+    /* background-color: #8f898926; */
+    background-color: #fff;
+}
+
+
+
+/***********************************************************************
+ *      item__map__list__store__
+ ***********************************************************************/
+.item__map__list__store__ {
+    position: relative;
+    display: flex;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* color: darkblue; */
+}
+
+.card__title.item__map__list__store__name.break {
+    /* color: gray; */
+    color: #0c0c6b;
+}
+
+.card__title.item__map__list__store__distance {
+    display: inline-block;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    font-size: .9rem;
+}
+
+.card__title.item__map__list__store__name {
+    margin-bottom: .2rem;
+    color: #0c0c6b;
+    display: inline-block;
+    text-align: left;
+    font-size: 1rem;
+    padding-right: 5px;
+    white-space: normal;
+    width: 180px;
+}
+
+.card__title.item__map__list__store__addr {
+    font-weight: 400;
+    font-size: .8rem;
+    color: darkslategrey;
+    white-space: normal;
+    text-align: left;
+}
+
+.card__title.item__map__list__store__remain {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: .2rem;
+    color: black;
+    display: inline-block;
+    bottom: 0;
+    width: fit-content;
+    position: relative;
+}
+
+.card__title.item__map__list__store__stock {
+    font-weight: 400;
+    font-size: .8rem;
+    margin-bottom: .2rem;
+    color: black;
+    text-align: left;
+}
+
+
+
+/***********************************************************************
+ *     item__map__list__store__remain (재고 수량 정보에 따른 색 지정)
+ ***********************************************************************/
+.item__map__list__store__remain.break {
+    text-decoration-line: line-through;
+    /* color: gray; */
+}
+
+.item__map__list__store__remain__text {
+    position: relative;
+}
+
+.item__map__list__store__remain__color {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    bottom: 4px;
+}
+
+.item__map__list__store__remain__color.plenty {
+    background: green;
+}
+
+.item__map__list__store__remain__color.some {
+    background: yellow;
+}
+
+.item__map__list__store__remain__color.few {
+    background: red;
+}
+
+.item__map__list__store__remain__color.empty {
+    background: gray;
+    transition: all 250ms ease-in;
+}
+
+
+
+/***********************************************************************
+ *     item__map__list__store__distance
+ ***********************************************************************/
+
+

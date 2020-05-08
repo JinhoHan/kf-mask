@@ -1,0 +1,24 @@
+.modal-dialog.user__modal {
+    margin-top: 150px;
+}
+
+.user__select__distance__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #09098e;
+    margin-bottom: 10px;
+}
+
+.user__select__distance__box {
+    text-align: center;
+}
+
+#user__select__distance__selected {
+    width: 90%;
+}
+
+.btn-outline-secondary.user__select__distance__selected:hover {
+    color: black;
+    background-color: white;
+    border-color: #6c757d;
+}

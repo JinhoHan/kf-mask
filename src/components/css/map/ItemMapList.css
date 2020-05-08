@@ -1,0 +1,12 @@
+.item__map__list {
+    background-color: whitesmoke;
+    padding: 105px 0px 10px 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#map__List {
+    width:100%;
+    height:100%;
+}
