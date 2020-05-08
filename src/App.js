@@ -9,8 +9,8 @@ import ItemMapList from './components/js/map/ItemMapList';
 
 
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
